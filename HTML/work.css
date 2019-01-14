@@ -1,0 +1,132 @@
+body {
+	background-color: white;
+}
+
+
+
+/* this part is all for the container section*/
+
+.container {
+	background-color: white;
+	width:800px;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+
+
+/* this part is header section */
+.header{
+	background-color: white;
+	text-align: center;
+	padding: 10px 0px 10px 0;
+	color: black;
+	font-size: 20px;
+	font-family: 'Parisienne', cursive;
+	text-shadow: 3px 3px 8px #1B3EA3;
+}
+
+
+/* this part is navigation part, main menu and stuff */
+
+.navigation ul li{
+display: inline;
+text-decoration: none;
+padding: 10px;
+
+}
+
+.navigation {
+	background-color: white;
+	text-align: center;
+	margin:0px;
+	padding: 0px 70px 0px 10px;
+	padding-top: 10px;
+
+	}
+
+a {
+	text-decoration: none;	
+}
+.navigation ul a:hover {
+	background-color:#56C4BB;
+	color: white;
+	padding:10px;
+	transition: 0.8s;	
+}
+
+
+/* this part is main content section where I devided it into main page and columnLeft */
+.content {
+	padding: 10px;
+	background-color: white;	
+}
+
+.main {
+	width: 700px;
+	color:black;
+	padding-left: 40px;
+	padding-bottom: 100px;
+	}
+
+.photo {
+	max-width: 40px;
+	display: inline;
+	padding-left: 65px;
+	padding-bottom: 50px;
+}
+
+.photo2{
+	max-width: 30px;
+	display: inline;
+	padding-left: 195px;
+}
+
+.footer{
+	clear: both;
+}
+
+
+
+/* This is footer and social media icons section.*/
+.copyright{
+	width:150px;
+	color:grey;
+	float: right;
+	padding-top: 60px
+}
+
+
+.icons{
+	width:630px;
+	margin: 0px;
+	justify-content: space-around;
+	display:flex;
+	max-width: 110px;
+	padding-top: 40px;
+	padding-left: 350px;
+	float:center
+}
+
+.icons a{
+	text-decoration: none;
+	font-size: 20px;
+	color:white;
+	width:45px;
+	height: 45px;
+	text-align: center;
+	transition: 0.4s all;
+	line-height: 45px;
+	cursor: pointer;
+	background: grey;
+	border-radius: 50%;
+	
+}
+
+.icons a:hover{
+	transform: scale(1.2);
+
+}
+
+
+
